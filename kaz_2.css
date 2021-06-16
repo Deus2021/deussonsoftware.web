@@ -1,0 +1,206 @@
+#bod
+{
+    background-color: darkorange;
+    opacity: 0.9;
+    filter: brightness(opacity=60);
+    align-self: center;
+    overflow-x: hidden;
+    width: 80%;
+
+}
+.div_1
+{
+    display: block;
+    background-image: url(picha/kelvin_pic\ \(6\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    float: left;
+    margin: 10px 0px 2px 30px;
+    border-radius: 40px;
+}
+/* #image_1
+{
+    display: block;
+    width: 20px;
+    height: 2opx;
+    align-self: center;
+    background-image: url(picha/picha4.jpg);
+} */
+#div_2
+{
+    display: block;
+    background-color: rgb(233, 98, 215);
+    width: 200px;
+    height: 200px;
+    float: left;
+    flood-opacity: 20%;
+    margin: 300px 0px 2px 60px;
+}
+#div_2:hover
+{
+    background-color: rgb(11, 66, 148);
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    transition-duration: 1s ;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 8px 8px green;
+}
+#div_3
+{
+    display: block;
+    background-color: rgb(72, 137, 190);
+    width: 200px;
+    height: 200px;
+    float: left;
+    flood-opacity: 20%;
+    margin: -200px 0px 2px 290px;
+}
+#div_3:hover
+{
+    background-color: rgb(168, 196, 238);
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    transition-duration: 1s ;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 9px 9px rgb(4, 41, 35);
+}
+#div_4
+{
+    display: block;
+    background-color: rgb(32, 182, 144);
+    width: 200px;
+    height: 200px;
+    float: right;
+    flood-opacity: 20%;
+    margin: -200px -230px 2px 0px;
+}
+#div_4:hover
+{
+    background-color: rgb(12, 55, 121);
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    transition-duration: 1s ;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 9px 9px rgb(224, 134, 15);
+}
+#div_5
+{
+    display: block;
+    background-color: rgb(44, 173, 156);
+    width: 200px;
+    height: 200px;
+    float: right;
+    flood-opacity: 20%;
+    margin: -200px -460px 2px 0px;
+}
+#div_5:hover
+{
+    background-color: rgb(40, 91, 167);
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    transition-duration: 1s ;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 9px 9px rgb(129, 9, 139);
+}
+#div_6
+{
+    display: block;
+    color: black;
+    float: left;
+    margin: 40px 0px 2px 30px;
+    width: 400px;
+    height: 100px;
+    padding: 2px;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-shadow: blanchedalmond;
+}
+#div_7
+{
+    display: block;
+    color: black;
+    float: left;
+    margin: 50px 0px 2px 30px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(2, 1, 2);
+}
+#div_7:hover
+{
+    background-color: rgb(11, 66, 148);
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    transition-duration: 1s ;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(1, 44, 1);
+}
+#submit_data_kaz{
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 20px;
+    width: 60px;
+    margin-top: 160px;
+  }
+  
+  #submit_data_kaz:hover{
+    background-color: rgb(133, 25, 109);
+    transition-duration: 1s;
+    font-size: 15px;
+    font-weight: 400;
+    width: 60px;
+  }
+  .profile_kaz
+  {
+    border-radius: 50%;
+    max-width: 60px;
+    height: 60px;
+    float: right;
+    /* outline: 10px groove blue; */
+    margin: -3px -100px 40px 0px;
+  }
+  .list {
+    list-style-type: none;
+    margin: -2px 0px 0px 110px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 734px;
+    position: center;
+    border-radius: 20px;
+    box-shadow: 8px 8px yellow;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(25, 2, 54);
+    transition-duration: 1s;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .active {
+    background-color: #080e5e;
+  }
